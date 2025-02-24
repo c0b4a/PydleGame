@@ -64,7 +64,8 @@ upgrades = {
 }
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH.parent / Path(r"build\assets\frame0")
+
+ASSETS_PATH = OUTPUT_PATH / Path(r"assets\frame0")
 
 #UI
 def relative_to_assets(path: str) -> Path:
